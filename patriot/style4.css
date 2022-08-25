@@ -1,0 +1,87 @@
+*::selection{
+    background-color: violet;
+    color: rgb(166, 0, 255);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(117, 215, 192);
+
+    border-radius: 30px;
+    
+}
+.card_back{
+    display: flex;
+}
+.year{
+    display: grid;
+    align-self: end;
+}
+.card_back > .year,.cvv{
+    margin-left: 40px;
+}
+#card{
+    background-color:  rgb(169, 255, 235);
+    padding: 10px 140px 10px 30px;
+    border-bottom: 2px solid rgb(118, 200, 181);
+    font-size: 24px;
+}
+.number{
+    margin-left: 30px;
+}
+.name{
+    margin-left: 30px;
+}
+#user{
+    background-color:  rgb(169, 255, 235);
+    padding: 10px 140px 10px 30px;
+    border-bottom: 2px solid rgb(118, 200, 181);
+    font-size: 24px;
+}
+p{
+    margin: 50px 0px 5px 0px;
+    opacity: 0.7;
+}
+.card_background{
+    background-color:  rgb(169, 255, 235);
+    width:83px;
+    border-bottom: 2px solid rgb(118, 200, 181);
+    padding: 10px 21px 10px 20px;
+    font-size: 18px;
+}
+.card_back{
+    margin-left: 30px;
+}
+.img{
+    position: relative;
+    left: 530px;
+    top: -230px;
+    width: 370px;
+    height: 412px;
+    overflow: hidden;
+    border-radius: 0px 0px 30px 0px;
+}
+.inputs{
+    position: relative;
+    top: 60px;
+}
+.details{
+    position: relative;
+    color: aliceblue;
+    width: 500px;
+    padding: 10px 150px 10px 40px;
+    background-color: rgb(255, 98, 0);
+    font-size: 27px;
+    z-index: 1;
+    top: 50px;
+    left: -30px;
+    box-shadow: 15px 25px 40px 0px black;
+}
